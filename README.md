@@ -1,13 +1,13 @@
 ########################################################
-# This library contains 2 method of API authentication #
+  This library contains 2 method of API authentication 
 ########################################################
-# 1. With Signature and Timeout Validation
-# 2. With Token and Expiration Time
-# 3. Utility to print json and get data from clients
+ 1. With Signature and Timeout Validation
+ 2. With Token and Expiration Time
+ 3. Utility to print json and get data from clients
 
 Example:
 
-public function index()
+	public function index()
 	{
 		$auth = $this->auth->check_auth_client('GET');
 		$response = [];
