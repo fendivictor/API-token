@@ -1,6 +1,4 @@
-########################################################
-  This library contains 2 method of API authentication 
-########################################################
+# API authentication
  1. With Signature and Timeout Validation
  2. With Token and Expiration Time
  3. Utility to print json and get data from clients
